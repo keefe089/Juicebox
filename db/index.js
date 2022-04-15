@@ -450,3 +450,5 @@ module.exports = {
   getUserByUsername,
   getPostById,
 };
+
+curl http://localhost:3000/api/posts/1 -X DELETE -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsYmVydCIsImlkIjoxLCJpYXQiOjE2NDk5NzE4NjR9.a_0Mo4wdIHFR8q_tjMzbEiJfPi12qD_7jPMbG7Hs-N0'
